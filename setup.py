@@ -31,7 +31,7 @@ setup(
     keywords="mqtt asyncio home-automation logging postgres sql",
 
     # Requirements
-    install_requires=["qth>=0.6.0", "asyncpg"],
+    install_requires=["qth>=0.6.0", "asyncpg", "aiohttp"],
     
     # Scripts
     entry_points={
